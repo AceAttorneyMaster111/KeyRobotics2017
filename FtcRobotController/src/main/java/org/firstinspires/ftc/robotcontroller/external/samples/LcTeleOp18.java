@@ -128,7 +128,7 @@ public class LcTeleOp18 extends OpMode {
             slowModeType = 8;
         }
         //Tank Drive
-        float right = -gamepad1.right_stick_y;
+        float right = gamepad1.right_stick_y;
         float left = gamepad1.left_stick_y;
 
         // clip the right/left values so that the values never exceed +/- 1
